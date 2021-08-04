@@ -14,5 +14,9 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return view('index', ['name' => 'Lindoes']);
+});
+
+$router->get('/cadastro', function () use ($router) {
+    return view('cadastro', ['email' => 'leo@gmail.com']);
 });
