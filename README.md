@@ -25,3 +25,7 @@ Port: 3306
 These are the username and password to log in to your database and phpMyAdmin
 
 php artisan make:migration class --create=tablename
+
+## Forma para consultar, etc
+
+$results = DB::select("SELECT * FROM users");
