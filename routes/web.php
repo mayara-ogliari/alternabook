@@ -17,6 +17,10 @@ $router->get('/', function () use ($router) {
     return view('index', ['name' => 'Lindoes']);
 });
 
+$router->get('/login', function () use ($router) {
+    return view('login');
+});
+
 $router->get('/cadastro', function () use ($router) {
     return view('cadastro', ['email' => 'leo@gmail.com']);
 });

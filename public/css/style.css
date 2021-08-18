@@ -9,6 +9,10 @@
     height: 100vh;
 }
 
+.btn-login {
+    margin-left: 15px;
+}
+
 .logo {
     width: 80px;
 }
